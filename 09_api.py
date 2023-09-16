@@ -144,6 +144,13 @@ def valid_projection_json(data):
             return False
     return True
 
+# Example json for the new event
+# {
+#   "description": "Popkulturní klasika no 2",
+#   "duration": 99,
+#   "name": "Rambo 2",
+#   "start_time": "2023-09-17 18:30:00.000"
+# }
 @app.route('/projections/<int:projection_id>', methods=['PUT'])
 def projection_put(projection_id):
     if projection_id not in projections_data:
