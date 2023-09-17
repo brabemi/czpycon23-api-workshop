@@ -1,6 +1,6 @@
 # Moje první API ve Flasku
 
-[PyCon CZ 23](https://cz.pycon.org/2023/program/workshops/20/)
+[PyCon CZ 23](https://cz.pycon.org/2023/program/workshops/20/), inspirováno pyworkingem [cojeapi](https://cojeapi.cz/)
 
 Vyzkoušíme si vytvořit jednoduchou Flask aplikaci, která bude implementovat REST API a přijímat zprávy ve formátu JSON.
 
